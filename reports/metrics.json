@@ -1,0 +1,34 @@
+{
+  "logistic_regression": {
+    "roc_auc": 0.7469774172880781,
+    "pr_auc": 0.4973238763123382,
+    "ks": 0.3895851216668863,
+    "recall_at_50pct_precision": 0.5380557648831952
+  },
+  "xgboost": {
+    "roc_auc": 0.7825135367745346,
+    "pr_auc": 0.5625255876573083,
+    "ks": 0.4345425169297368,
+    "recall_at_50pct_precision": 0.6021100226073851
+  },
+  "business": {
+    "threshold": 0.14999999999999997,
+    "profit_per_good": 1000,
+    "loss_per_bad": 5000,
+    "test_profit_approve_all": -1962000,
+    "test_profit_default_threshold_0.5": 192000,
+    "test_profit_optimised_threshold": 1317000,
+    "credit_loss_reduction_vs_approve_all_pct": 78.2,
+    "approval_rate": 0.508,
+    "confusion_matrix_[[TN,FP],[FN,TP]]": [
+      [
+        2762,
+        1911
+      ],
+      [
+        289,
+        1038
+      ]
+    ]
+  }
+}
